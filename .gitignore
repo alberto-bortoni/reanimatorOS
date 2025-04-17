@@ -1,0 +1,19 @@
+# Ignore build artifacts
+build/tmp/
+build/sstate-cache/
+build/cache/
+*.iso
+*.ext4
+*.hddimg
+*.tar.*
+*.manifest
+*.json
+*.conf.backup
+
+# Ignore BitBake history
+build/buildhistory/
+
+# Ignore editor files
+*.swp
+*.bak
+
